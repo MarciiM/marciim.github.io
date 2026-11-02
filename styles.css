@@ -637,3 +637,206 @@ button {
   }
 }
 
+/* Pasztelles, világos színvilág */
+:root {
+  --ink: #293832;
+  --paper: #fbf9f4;
+  --muted: #718078;
+  --lime: #bad8c8;
+  --line: rgba(47, 65, 56, 0.16);
+}
+
+body {
+  background: #f7f5ef;
+  color: #2c3933;
+}
+
+.topbar,
+.section,
+.footer {
+  border-color: var(--line);
+}
+
+.brandmark {
+  background: #c8e3d4;
+  color: #293832;
+}
+
+.nav {
+  color: #596a61;
+}
+
+.nav a:hover {
+  color: #779786;
+}
+
+.nav-cta {
+  border-color: #c3cec6;
+  color: #33443b !important;
+}
+
+.nav-cta:hover {
+  border-color: #9dbfae;
+  color: #3a5a4a !important;
+}
+
+.eyebrow,
+.section-kicker {
+  color: #678a77;
+}
+
+.dot {
+  background: #91b6a2;
+  box-shadow: 0 0 14px #b8d5c499;
+}
+
+.hero h1 em,
+.section h2 em,
+.about-lead em,
+.contact h2 em {
+  color: #93b7a3;
+}
+
+.intro,
+.section-note,
+.about-copy,
+.step p,
+.contact-copy {
+  color: #5e6c64;
+}
+
+.button {
+  background: #bad8c8;
+  color: #293832;
+}
+
+.button:hover {
+  background: #cbe4d5;
+}
+
+.text-link {
+  color: #485a50;
+}
+
+.text-link span,
+.arrow {
+  color: #779b87;
+}
+
+.hero-art {
+  border-color: #d7e0d8;
+  background: radial-gradient(ellipse at 52% 44%, #ece7f2 0%, #eaf1eb 42%, #f7f4ee 76%);
+}
+
+.hero-art::before,
+.hero-art::after {
+  border-color: #9fb8a9;
+  opacity: 0.32;
+}
+
+.orb {
+  background: radial-gradient(circle at 33% 29%, #fff4dd 0%, #e5d9ee 18%, #c8dfd0 45%, #a9c7b3 67%, #dfd5e8 100%);
+  box-shadow: inset -22px -25px 40px #8b9c91, 0 0 70px #c5b4dc55;
+}
+
+.orb::after {
+  border-color: #fff2d8;
+}
+
+.art-label {
+  color: #64736a;
+}
+
+.art-code,
+.art-stamp {
+  color: #668a75;
+}
+
+.art-stamp {
+  border-color: #a8c4b4;
+}
+
+.hero-index {
+  color: #79877f;
+}
+
+.hero-index b {
+  color: #293832;
+}
+
+.work-card {
+  border-color: #dce4dd;
+  background: #fffefa;
+}
+
+.work-card:hover {
+  border-color: #b4cfbd;
+}
+
+.work-visual {
+  background: #e8eee8;
+}
+
+.work-card:nth-child(2) .work-visual {
+  background: #f0eaf4;
+}
+
+.mock-side {
+  background: linear-gradient(145deg, #dce8c9, #adc9b1);
+}
+
+.dash-side {
+  background: #dce8df;
+  color: #425d4c;
+}
+
+.pill {
+  color: #496b55;
+  background: #e5f0e0;
+}
+
+.tag {
+  color: #68766d;
+  border-color: #d5dfd8;
+}
+
+.card-meta p,
+.work-hint {
+  color: #66736b;
+}
+
+.work-foot .mono {
+  color: #75837a;
+}
+
+.skill {
+  border-color: #ced9d1;
+  color: #405448;
+}
+
+.step-num {
+  color: #789b87;
+}
+
+.contact {
+  background: radial-gradient(ellipse at 95% 100%, #e7def0 0%, transparent 42%);
+}
+
+.contact-email {
+  color: #628973;
+}
+
+.contact-email:hover {
+  color: #405f4c;
+}
+
+.footer {
+  color: #718078;
+}
+
+@media (max-width: 760px) {
+  .step {
+    border-bottom-color: rgba(47, 65, 56, 0.12);
+  }
+}
+
