@@ -911,3 +911,13 @@ body {
     margin-top: 36px;
   }
 }
+
+
+/* Kódjelet formázó pasztell logó */
+.brandmark {
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  font: 700 12px 'DM Mono', monospace;
+  letter-spacing: -1px;
+}
