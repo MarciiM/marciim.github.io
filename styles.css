@@ -840,3 +840,74 @@ body {
   }
 }
 
+
+
+/* Kapcsolati űrlap */
+.contact-form-wrap {
+  width: min(100%, 430px);
+}
+.contact-form {
+  display: grid;
+  gap: 10px;
+}
+.contact-form label {
+  margin-top: 8px;
+  color: #52645a;
+  font-size: 12px;
+  font-weight: 600;
+}
+.contact-form input:not([type="hidden"]):not(.contact-honeypot),
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid #d3ddd6;
+  border-radius: 4px;
+  padding: 12px 13px;
+  background: rgba(255, 254, 250, .82);
+  color: #2c3933;
+  font: 14px 'DM Sans', sans-serif;
+  outline: none;
+  transition: border-color .2s, box-shadow .2s;
+}
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #91b6a2;
+  box-shadow: 0 0 0 3px rgba(145, 182, 162, .2);
+}
+.contact-form .button {
+  justify-self: start;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.contact-form .button:disabled {
+  cursor: wait;
+  opacity: .7;
+}
+.form-status {
+  min-height: 1.5em;
+  margin: 4px 0 0;
+  color: #496b55;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.form-note {
+  margin: 2px 0 0;
+  color: #718078;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.contact-honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+@media (max-width: 760px) {
+  .contact-form-wrap {
+    margin-top: 36px;
+  }
+}
